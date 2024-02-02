@@ -1,0 +1,31 @@
+id: d0f4277f-52e1-4001-ae4d-9f413fd6a27d
+name: mpl
+project_id: 1043b30b-63fb-4551-aa2d-7a4b83d66c68
+global_imports: []
+is_public: false
+workspace_id: null
+layers:
+- blocks:
+  - auto_size: false
+    canvas_id: d0f4277f-52e1-4001-ae4d-9f413fd6a27d
+    cpu: null
+    description: ''
+    height: 500
+    id: 39dea193-7a04-41c1-8f25-3ec82b459b51
+    is_fargate: false
+    layer_id: 038f88b2-459e-4d4b-a920-fded368e4ccc
+    memory: null
+    name: ''
+    parent_id: null
+    properties: {}
+    status: 3
+    type: 1
+    variables: null
+    width: 800
+    x: 470
+    y: 74
+  canvas_id: d0f4277f-52e1-4001-ae4d-9f413fd6a27d
+  edges: []
+  id: 038f88b2-459e-4d4b-a920-fded368e4ccc
+  name: Development
+  type: 1
