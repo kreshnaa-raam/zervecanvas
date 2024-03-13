@@ -1,1 +1,1 @@
-select * from data limit 10
+select * from data limit 100
