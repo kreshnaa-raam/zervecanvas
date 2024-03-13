@@ -1,17 +1,17 @@
-id: cef93d3c-dbd2-4f15-8642-673a7db17e3a
+id: 7b8f7579-6254-483f-8933-3ddd65ecaf7e
 name: Development
 type: 1
-canvas_id: 4bd233f0-9dfc-489e-84b6-fba78d9fb8d5
+canvas_id: 633bc6c7-015a-4882-8d19-4f81003fc649
 blocks:
 - auto_size: false
-  canvas_id: 4bd233f0-9dfc-489e-84b6-fba78d9fb8d5
-  cpu: null
+  canvas_id: 633bc6c7-015a-4882-8d19-4f81003fc649
+  compute_environment_type: 1
+  cpu: 2048
   description: ''
   height: 500
-  id: 5529f755-a0d6-4e3a-ad6e-f3129ca5a7b4
-  is_fargate: false
-  layer_id: cef93d3c-dbd2-4f15-8642-673a7db17e3a
-  memory: null
+  id: fc634a5d-73fb-4352-804c-828df2212a99
+  layer_id: 7b8f7579-6254-483f-8933-3ddd65ecaf7e
+  memory: 16384
   name: ''
   parent_id: null
   properties: {}
@@ -19,6 +19,31 @@ blocks:
   type: 1
   variables: null
   width: 800
-  x: 117
-  y: 59
-edges: []
+  x: -401
+  y: -20
+- auto_size: false
+  canvas_id: 633bc6c7-015a-4882-8d19-4f81003fc649
+  compute_environment_type: 1
+  cpu: 2048
+  description: ''
+  height: 500
+  id: 1425de3a-ec9f-4417-9b1b-f3c3e0f80948
+  layer_id: 7b8f7579-6254-483f-8933-3ddd65ecaf7e
+  memory: 16384
+  name: ''
+  parent_id: null
+  properties:
+    input_dataframe: true
+    output_variable: df
+  status: 3
+  type: 3
+  variables: null
+  width: 800
+  x: 518
+  y: -16
+edges:
+- canvas_id: 633bc6c7-015a-4882-8d19-4f81003fc649
+  id: 5231fc94-9608-411b-b8eb-dec9cb16e7a1
+  layer_id: 7b8f7579-6254-483f-8933-3ddd65ecaf7e
+  source: fc634a5d-73fb-4352-804c-828df2212a99
+  target: 1425de3a-ec9f-4417-9b1b-f3c3e0f80948
