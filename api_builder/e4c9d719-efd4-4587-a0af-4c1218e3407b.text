@@ -1,0 +1,10 @@
+import json
+
+
+payload = json.loads(r"""{
+        "sepal.length": 5.1,
+        "sepal.width": 3.5,
+        "petal.length": 1.4,
+        "petal.width": 0.2
+}""")
+
